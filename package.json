@@ -7,9 +7,9 @@
 		"build": "tsc"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Damon-GSY",
 	"license": "ISC",
-	"description": "",
+	"description": "Extract external links and generate reference section at the bottom of the file",
 	"devDependencies": {
 		"@types/node": "^20.14.5",
 		"obsidian": "^1.5.7-1",
