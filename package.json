@@ -1,17 +1,18 @@
 {
-  "name": "my-obsidian-plugin",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@types/node": "^20.14.5",
-    "obsidian": "^1.5.7-1",
-    "typescript": "^5.4.5"
-  }
+	"name": "my-obsidian-plugin",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@types/node": "^20.14.5",
+		"obsidian": "^1.5.7-1",
+		"typescript": "^5.4.5"
+	}
 }
