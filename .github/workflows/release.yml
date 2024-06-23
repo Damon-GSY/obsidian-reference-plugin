@@ -17,6 +17,11 @@ jobs:
         with:
           node-version: "18.x"
 
+      - name: Check out package.json content
+        run: |
+          cat package.json
+          ls -al
+
       - name: Install dependencies
         run: |
           npm install
