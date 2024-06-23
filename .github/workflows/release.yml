@@ -19,6 +19,7 @@ jobs:
 
       - name: Check out package.json content
         run: |
+          echo "Checking package.json content"
           cat package.json
           ls -al
 
