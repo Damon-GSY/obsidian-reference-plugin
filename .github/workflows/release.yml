@@ -17,10 +17,15 @@ jobs:
         with:
           node-version: "18.x"
 
-      - name: Build plugin
+      - name: Install dependencies
         run: |
           npm install
+          ls -al
+
+      - name: Build plugin
+        run: |
           npm run build
+          ls -al
 
       - name: Create release
         env:
